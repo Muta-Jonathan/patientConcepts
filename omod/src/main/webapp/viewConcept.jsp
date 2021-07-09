@@ -22,7 +22,7 @@
 					<th>Name</th>
 					<th>Type</th>
 					<th>Locale</th>
-					<th>Description</th>
+					<th>User</th>
 
 				</tr>
 
@@ -31,7 +31,7 @@
 						<td>${cn.conceptNameType }</td>
 						<td><c:out escapeXml="true" value="${cn.name }" /></td>
 						<td>${cn.locale }</td>
-						<td>${cn.description }</td>
+						<td>${cn.creator }</td>
 
 					</tr>
 				</c:forEach>
